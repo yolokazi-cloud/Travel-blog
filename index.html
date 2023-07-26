@@ -1,0 +1,430 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Blogs">
+    <meta name="keywords" content="HTML,CSS"> 
+    <meta name="author" content="Yolokazi Nogantsho">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Travelling-site</title>
+
+</head>
+<header>
+ <nav>
+    <!--
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-hide-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>My Page</h1>
+  </div>
+  </div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+    -->
+    <label class="logo">Travel Adventous</label>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>  <input type="checkbox" id="check" >
+            <label for="check" class="checkbtn">
+                  <i class="fa regular fa-bars"></i>
+            </label></li>
+    </ul>
+ </nav>
+</header>
+<body>
+<section>
+    <div class="home" id="home">
+    <h1>Welcome to YNOSI travel blog</h1>
+    <div class="home" id="searchBox">
+       <form >
+        <ul>
+            <li>  <i class="fa fa-search" aria-hidden="true"></i></li>
+            <li> <input type="text" placeholder="search for destination"> </li>
+             <li><a href="https://www.google.com/maps"><i class="fa fa-map-marker" style=" font-size: 50px;" id="map"></i></a> </li>  
+        </ul>
+      <button type="submit"> Search </i></button>
+ 
+       </form>
+    </div>   
+    </div>
+   <div class="destinations" id="dest1">
+   
+    <ul>
+    <li> <a href="#dest1"><i class="fa fa-angle-left" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:320px;padding:30px;"></i></a></li>
+      <li><p><img src="../images/durbanushaka.jpg" alt="ushaka marine">Ushaka marine in Durban, Kwa-Zulu Natal, South Africa <br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li> 
+      <li><p><img src="../images/cape town.jpg" alt="cape town">Table mountain, Western Cape, <br> South Africa<br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li> 
+      <li><p><img src="../images/egypt.jpg" alt="egypt">The pyramids of Egypt, Cairo, Egypt<br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li> 
+      <li> <a href="#dest2" ><i class="fa fa-angle-right" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:350px; "></i></a> </li>
+
+    </ul>
+<div class="destinations" id="dest2">
+    <ul>
+        <li> <a href="#dest1"><i class="fa fa-angle-left" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:338px; "></i></a></li>
+    <li><p><img src="../images/port.jpg" alt="pe">Artwork to democracy in Gqeberha, Eastern Cape, South Africa<br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li>  
+    <li><p><img src="../images/Venice-Canal-Aesthetic.jpg" alt="venice">The Venice canal aesthetic in Venice, Italy <br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li>  
+    <li><p><img src="../images/wits.jpg" alt="wits">The Wits great wall in Johannesburg, Gauteng, South Africa<br><a href="#blog" style="text-decoration:underline; font-size: 32px; color:#656565;">See more...</a></p></li> 
+
+</ul>
+
+ <a href="#dest1"><i class="fa fa-angle-left" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:320px;padding:30px;"></i></a>
+
+
+</div>
+   
+   </div>
+
+   <div class="blog" id="blog">
+    <h2>Our Blog </h2>
+     <h1>An insight to our travels</h1>
+</div>
+     <div class="blog" id="b1">
+        <ul>
+            <li> <p><img src="../images/ushaka.jpg" alt="ushaka">
+            <strong style="font-size:30px; color: skyblue">Ushaka Marine Experience</strong><br><br>uShaka Marine World is a 16-hectare theme park in Durban, KwaZulu-Natal, South Africa. It comprises 8 attractions: uShaka Sea World, 
+            uShaka Wet 'n Wild, uShaka Sea Animal Encounters Island, uShaka Beach, uShaka Village Walk, uShaka Kids World, uShaka Dangerous
+             Creatures and Chimp & Zee. uShaka Sea World is the fifth largest aquarium in the world. uShaka Wet 'n Wild water park has the highest 
+            slide in Africa. One of the most beautiful place, clean, fun, friendly, it's a must do when in dubs
+            The staff are well trained and so helpful, we had an amazing time at ushaka.</p> 
+        </li>
+            <li> <p><img src="../images/greatwall.jpg" alt="wall">
+            <strong style="font-size:30px; color: skyblue">The great wall</strong><br><br>The Great Hall, which is also managed by the
+             Performing Arts Administration seats up to 1030, has a rich heritage that dates back to the world premiere of the SA musical, King 
+             Kong and beyond. In 1993 we hosted the St. Petersburg Ballet Company. In 1979 the Great Hall was refurbished - it was given a new 
+             acoustic treatment, an inner stage and a wide forestage with an hydraulic orchestra lift.
+            For many decades the Johannesburg Musical Society has presented its splendid recitals, featuring the best artists from this country and all 
+            over the world, here. Today many students all of the world come to wits to further their studies and the maintenance of this building is
+            exceptional. This site was indeed worthy to behold.</p>
+        </li>
+            <li> <p><img src="../images/table.jpg "     alt="ushaka">
+            <strong style="font-size:30px; color: skyblue">Table Mountain</strong><br><br>The World famous Table Mountain is part of the sceni
+            c Peninsula Mountain chain that stretches from Signal Hill in the North (rightmost peak in the image above) to Cape Point in the South,
+             some 60km. Around it are many beautiful Valleys, Bays and Beaches bound by the cold waters of the Atlantic Ocean in the West and the warm
+              waters of False Bay in the East. It is a World Heritage Site because of its unique flora and fauna. This province is however very cold, 
+              it remains moderately chilly even in the summer season, we stayed here long enough to experience this tumultous weather. Stepping into
+               Cape Town always seems as if you're stepping to a new country outside SA. What a Lovely cold province!</p>
+            </li>
+        </ul>
+     </div>
+
+     <div class ="blog" id="b2">
+        <ul>
+        <li> <p><img src="../images/pyramids" alt="pyramids">
+            <strong style="font-size:30px; color: skyblue">Ushaka Marine Experience</strong><br><br>The pyramids of Egypt fascinated
+             travellers and conquerors in ancient times and continue to inspire wonder in the tourists, mathematicians, and archeologists 
+             who visit, explore, measure, and describe them.It was wonderful to experience the pyramids that we only got a change to dee while watching movies,
+            it was truly adventuorus</p>
+        </li>
+
+        <li> <p><img src="../images/botangardens.jpg" alt="botangardens">
+            <strong style="font-size:30px; color: skyblue">Tasmania Waterfalls</strong><br><br>uShaka Marine World is a 16-hectare theme park in Durban, KwaZulu-Natal, South Africa. It comprises 8 attractions: uShaka Sea World, 
+            uShaka Wet 'n Wild, uShaka Sea Animal Encounters Island, uShaka Beach, uShaka Village Walk, uShaka Kids World, uShaka Dangerous
+             Creatures and Chimp & Zee. uShaka Sea World is the fifth largest aquarium in the world. uShaka Wet 'n Wild water park has the highest 
+            slide in Africa. One of the most beautiful place, clean, fun, friendly, it's a must do when in dubs
+            The staff are well trained and so helpful, we had an amazing time at ushaka.</p> 
+        </li>
+        <li>  <p><img src="../images/cbd.jpg" alt="ushaka">
+            <strong style="font-size:30px; color: skyblue">The city of gold</strong><br><br>Johannesburg is not only known as the business hub of South Africa but also aptly known
+             as the City of Gold for good reason. Johannesburg is built right on top of one of the biggest natural goldfields known to man.
+              Word spread fast and prospectors from all over the globe came to Johannesburg to try their luck at mining in the Witwatersrand area. 
+              It is widely believed that the Struben brothers were the first pioneers to actually find gold - but their luck quickly ran out.</p> </li>
+        </ul>
+     
+     </div>
+
+   
+   <div class="recommendations" id="recommendations"> 
+       <h2>Our Ratings</h2>
+       <h1>and Recommendations</h1>
+    <ul style="display: flex; background-color: white; ">
+        <li>  <!--yolo-->
+ <p style="text-align: left;"> <img src="../images/yolo.jpeg" alt="yolo" style ="float:left;">
+         <strong style="font-size: 30px;">Yolo's recommendations</strong> <br><br>Our trip was mainly for exploration of natural sites, 
+         indigenous sites and heritage, with some surprises along the way. We have seen many places, shared some in our blog but there are 
+         three places the stood at the most for me, and I will give a rating for each from one to 5 stars. <br> <br>
+         1. For Education - England <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><br>
+         2. Social culture- America<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><br> 
+         3. History search purposes - Egypt<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+        
+          
+         </p>
+        </li>
+        <li>
+   <!--Nosipho -->
+        <p style="text-align: left;"><img src="../images/nosi.jpeg" alt="yolo" style ="float:left;"> <strong style="font-size: 30px;">Nosi's recommendations</strong> <br>We have travelled and can testify that indeed the creation of the world has a lot to offer. 
+            However, depending on your reasons to travel, my ratings might to be a match for you. Nonentheless, if you are travelling to make new
+            friends, learn a different culture, or a language or two, these three places may work for you. <br><br>
+            1. Jamaica <br>
+            2. South Africa <br>
+            3. Venice 
+        
+         </p>
+        </li>
+    </ul>
+    
+   </div> 
+  
+   <div class ="contact" id="contact">
+    <h4>Let us know what you thinking</h4>
+    <textarea name="contact" id="contact" cols="50" rows="50"  style="width:1200px; margin-left: 100px;border:5px solid white; font-size: 30px; height:600px; width:1400px; border-radius: 50px; padding: 30px;border:none;outline: none;" ></textarea>
+ <div class="button" style="margin-left:140px; padding: 90px;">
+  <input type="button" value="Send" style="font-family: 'Poppins',sans-serif; outline: none; font-size: 40px;background-color:#777 ;color:lightblue ; width: 400px; height: 100px; border-radius: 80px;border:none;   ">
+ </div>
+ <div class="footer" id="footer" style="background-color: #777; color:white;">
+    <h3 style="margin-left:1230px;padding: 30px;">Contact us</h3>
+    
+      <a href="#" class="fa fa-facebook" style="padding: 20px; margin-left:1200px; ;" ></a>
+      <a href="#" class="fa fa-twitter" style="padding: 20px;margin-left:20px;"></a>
+      <a href="#" class="fa fa-instagram" style="padding: 20px;margin-left:20px;"></a>
+      <a href="#" class="fa fa-envelope" style="padding: 20px;margin-left:20px;"></a>
+      <p style=" font-size:28px; text-align: centre; color: white;margin-left:1300px;padding:20px;"> (011) 234 5678</p>
+    <p style="margin-left: 1140px; font-size: 30px; padding: 30px;">Created by Yolokazi Nogantsho</p>
+  </div>
+</section>
+</body>
+
+  
+   
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travel Blogs">
+    <meta name="keywords" content="HTML,CSS"> 
+    <meta name="author" content="Yolokazi Nogantsho">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Travelling-site</title>
+
+</head>
+<header>
+ <nav>
+    <!--
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-hide-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>My Page</h1>
+  </div>
+  </div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+    -->
+    <label class="logo">Travel Adventous</label>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>  <input type="checkbox" id="check" >
+            <label for="check" class="checkbtn">
+                  <i class="fa regular fa-bars"></i>
+            </label></li>
+    </ul>
+ </nav>
+</header>
+<body>
+<section>
+    <div class="home" id="home">
+    <h1>Welcome to YNOSI travel blog</h1>
+    <div class="home" id="searchBox">
+       <form >
+        <ul>
+            <li>  <i class="fa fa-search" aria-hidden="true"></i></li>
+            <li> <input type="text" placeholder="search for destination"> </li>
+             <li><a href="https://www.google.com/maps"><i class="fa fa-map-marker" style=" font-size: 50px;" id="map"></i></a> </li>  
+        </ul>
+      <button type="submit"> Search </i></button>
+ 
+       </form>
+    </div>   
+    </div>
+   <div class="destinations" id="dest1">
+   
+    <ul>
+    <li> <a href="#dest1"><i class="fa fa-angle-left" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:320px;padding:30px;"></i></a></li>
+      <li><p><img src="../images/durbanushaka.jpg" alt="ushaka marine">Ushaka marine in Durban, Kwa-Zulu Natal, South Africa <br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li> 
+      <li><p><img src="../images/cape town.jpg" alt="cape town">Table mountain, Western Cape, <br> South Africa<br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li> 
+      <li><p><img src="../images/egypt.jpg" alt="egypt">The pyramids of Egypt, Cairo, Egypt<br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li> 
+      <li> <a href="#dest2" ><i class="fa fa-angle-right" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:350px; "></i></a> </li>
+
+    </ul>
+<div class="destinations" id="dest2">
+    <ul>
+        <li> <a href="#dest1"><i class="fa fa-angle-left" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:338px; "></i></a></li>
+    <li><p><img src="../images/port.jpg" alt="pe">Artwork to democracy in Gqeberha, Eastern Cape, South Africa<br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li>  
+    <li><p><img src="../images/Venice-Canal-Aesthetic.jpg" alt="venice">The Venice canal aesthetic in Venice, Italy <br><a href="#blog" style="text-decoration: underline; font-size: 32px; color: #656565;">See more...</a></p></li>  
+    <li><p><img src="../images/wits.jpg" alt="wits">The Wits great wall in Johannesburg, Gauteng, South Africa<br><a href="#blog" style="text-decoration:underline; font-size: 32px; color:#656565;">See more...</a></p></li> 
+
+</ul>
+
+ <a href="#dest1"><i class="fa fa-angle-left" aria-hidden="true" style="font-size: 100px;color: #656565; margin-top:320px;padding:30px;"></i></a>
+
+
+</div>
+   
+   </div>
+
+   <div class="blog" id="blog">
+    <h2>Our Blog </h2>
+     <h1>An insight to our travels</h1>
+</div>
+     <div class="blog" id="b1">
+        <ul>
+            <li> <p><img src="../images/ushaka.jpg" alt="ushaka">
+            <strong style="font-size:30px; color: skyblue">Ushaka Marine Experience</strong><br><br>uShaka Marine World is a 16-hectare theme park in Durban, KwaZulu-Natal, South Africa. It comprises 8 attractions: uShaka Sea World, 
+            uShaka Wet 'n Wild, uShaka Sea Animal Encounters Island, uShaka Beach, uShaka Village Walk, uShaka Kids World, uShaka Dangerous
+             Creatures and Chimp & Zee. uShaka Sea World is the fifth largest aquarium in the world. uShaka Wet 'n Wild water park has the highest 
+            slide in Africa. One of the most beautiful place, clean, fun, friendly, it's a must do when in dubs
+            The staff are well trained and so helpful, we had an amazing time at ushaka.</p> 
+        </li>
+            <li> <p><img src="../images/greatwall.jpg" alt="wall">
+            <strong style="font-size:30px; color: skyblue">The great wall</strong><br><br>The Great Hall, which is also managed by the
+             Performing Arts Administration seats up to 1030, has a rich heritage that dates back to the world premiere of the SA musical, King 
+             Kong and beyond. In 1993 we hosted the St. Petersburg Ballet Company. In 1979 the Great Hall was refurbished - it was given a new 
+             acoustic treatment, an inner stage and a wide forestage with an hydraulic orchestra lift.
+            For many decades the Johannesburg Musical Society has presented its splendid recitals, featuring the best artists from this country and all 
+            over the world, here. Today many students all of the world come to wits to further their studies and the maintenance of this building is
+            exceptional. This site was indeed worthy to behold.</p>
+        </li>
+            <li> <p><img src="../images/table.jpg "     alt="ushaka">
+            <strong style="font-size:30px; color: skyblue">Table Mountain</strong><br><br>The World famous Table Mountain is part of the sceni
+            c Peninsula Mountain chain that stretches from Signal Hill in the North (rightmost peak in the image above) to Cape Point in the South,
+             some 60km. Around it are many beautiful Valleys, Bays and Beaches bound by the cold waters of the Atlantic Ocean in the West and the warm
+              waters of False Bay in the East. It is a World Heritage Site because of its unique flora and fauna. This province is however very cold, 
+              it remains moderately chilly even in the summer season, we stayed here long enough to experience this tumultous weather. Stepping into
+               Cape Town always seems as if you're stepping to a new country outside SA. What a Lovely cold province!</p>
+            </li>
+        </ul>
+     </div>
+
+     <div class ="blog" id="b2">
+        <ul>
+        <li> <p><img src="../images/pyramids" alt="pyramids">
+            <strong style="font-size:30px; color: skyblue">Ushaka Marine Experience</strong><br><br>The pyramids of Egypt fascinated
+             travellers and conquerors in ancient times and continue to inspire wonder in the tourists, mathematicians, and archeologists 
+             who visit, explore, measure, and describe them.It was wonderful to experience the pyramids that we only got a change to dee while watching movies,
+            it was truly adventuorus</p>
+        </li>
+
+        <li> <p><img src="../images/botangardens.jpg" alt="botangardens">
+            <strong style="font-size:30px; color: skyblue">Tasmania Waterfalls</strong><br><br>uShaka Marine World is a 16-hectare theme park in Durban, KwaZulu-Natal, South Africa. It comprises 8 attractions: uShaka Sea World, 
+            uShaka Wet 'n Wild, uShaka Sea Animal Encounters Island, uShaka Beach, uShaka Village Walk, uShaka Kids World, uShaka Dangerous
+             Creatures and Chimp & Zee. uShaka Sea World is the fifth largest aquarium in the world. uShaka Wet 'n Wild water park has the highest 
+            slide in Africa. One of the most beautiful place, clean, fun, friendly, it's a must do when in dubs
+            The staff are well trained and so helpful, we had an amazing time at ushaka.</p> 
+        </li>
+        <li>  <p><img src="../images/cbd.jpg" alt="ushaka">
+            <strong style="font-size:30px; color: skyblue">The city of gold</strong><br><br>Johannesburg is not only known as the business hub of South Africa but also aptly known
+             as the City of Gold for good reason. Johannesburg is built right on top of one of the biggest natural goldfields known to man.
+              Word spread fast and prospectors from all over the globe came to Johannesburg to try their luck at mining in the Witwatersrand area. 
+              It is widely believed that the Struben brothers were the first pioneers to actually find gold - but their luck quickly ran out.</p> </li>
+        </ul>
+     
+     </div>
+
+   
+   <div class="recommendations" id="recommendations"> 
+       <h2>Our Ratings</h2>
+       <h1>and Recommendations</h1>
+    <ul style="display: flex; background-color: white; ">
+        <li>  <!--yolo-->
+ <p style="text-align: left;"> <img src="../images/yolo.jpeg" alt="yolo" style ="float:left;">
+         <strong style="font-size: 30px;">Yolo's recommendations</strong> <br><br>Our trip was mainly for exploration of natural sites, 
+         indigenous sites and heritage, with some surprises along the way. We have seen many places, shared some in our blog but there are 
+         three places the stood at the most for me, and I will give a rating for each from one to 5 stars. <br> <br>
+         1. For Education - England <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><br>
+         2. Social culture- America<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><br> 
+         3. History search purposes - Egypt<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+        
+          
+         </p>
+        </li>
+        <li>
+   <!--Nosipho -->
+        <p style="text-align: left;"><img src="../images/nosi.jpeg" alt="yolo" style ="float:left;"> <strong style="font-size: 30px;">Nosi's recommendations</strong> <br>We have travelled and can testify that indeed the creation of the world has a lot to offer. 
+            However, depending on your reasons to travel, my ratings might to be a match for you. Nonentheless, if you are travelling to make new
+            friends, learn a different culture, or a language or two, these three places may work for you. <br><br>
+            1. Jamaica <br>
+            2. South Africa <br>
+            3. Venice 
+        
+         </p>
+        </li>
+    </ul>
+    
+   </div> 
+  
+   <div class ="contact" id="contact">
+    <h4>Let us know what you thinking</h4>
+    <textarea name="contact" id="contact" cols="50" rows="50"  style="width:1200px; margin-left: 100px;border:5px solid white; font-size: 30px; height:600px; width:1400px; border-radius: 50px; padding: 30px;border:none;outline: none;" ></textarea>
+ <div class="button" style="margin-left:140px; padding: 90px;">
+  <input type="button" value="Send" style="font-family: 'Poppins',sans-serif; outline: none; font-size: 40px;background-color:#777 ;color:lightblue ; width: 400px; height: 100px; border-radius: 80px;border:none;   ">
+ </div>
+ <div class="footer" id="footer" style="background-color: #777; color:white;">
+    <h3 style="margin-left:1230px;padding: 30px;">Contact us</h3>
+    
+      <a href="#" class="fa fa-facebook" style="padding: 20px; margin-left:1200px; ;" ></a>
+      <a href="#" class="fa fa-twitter" style="padding: 20px;margin-left:20px;"></a>
+      <a href="#" class="fa fa-instagram" style="padding: 20px;margin-left:20px;"></a>
+      <a href="#" class="fa fa-envelope" style="padding: 20px;margin-left:20px;"></a>
+      <p style=" font-size:28px; text-align: centre; color: white;margin-left:1300px;padding:20px;"> (011) 234 5678</p>
+    <p style="margin-left: 1140px; font-size: 30px; padding: 30px;">Created by Yolokazi Nogantsho</p>
+  </div>
+</section>
+</body>
+
+  
+   
+
+>>>>>>> 2f1846ce9dd538c6ce7900ffe37cc726fc1b9dc1
+</html>
